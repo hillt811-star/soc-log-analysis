@@ -1,4 +1,4 @@
-Run Notebook and  - name: Set up Python
+  - name: Set up Python
     uses: actions/setup-python@v4
     with:
       python-version: '3.9'
@@ -24,4 +24,4 @@ Run Notebook and  - name: Set up Python
       git add demo || true
       git add data/auth_logs_expanded.csv || true
       git commit -m "Add generated dataset and demo images from notebook" || echo "No changes to commit"
-      git push Generate Demo Images
+      git push
